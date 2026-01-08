@@ -136,3 +136,63 @@ body button:hover {
     color: white;
     margin-bottom: 32px;
 }
+.cards-section{
+    border: #6ca6db 5px solid;
+}
+.cards-title{
+    /* border: #001931 1px solid; */
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 44px;
+}
+
+.title-text{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+/* reuseable */
+.description-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-right: 120px;
+    margin-left: 120px;
+/* bg Color checked using https://imagecolorpicker.com/ */
+    background-color: #fbfbfb;
+
+}
+.card{
+    text-align: center;
+    padding: 70px 24px;
+    box-shadow: 0px 4px 16px #1d191918;
+}
+
+.card-icon{
+    background-color: #F95555;
+    width: 32px;
+    height: 32px;
+    padding: 14px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    margin: 0 auto;
+}
+.card-name{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #001931;
+    margin: 16px 0;
+    padding: 0 16px;
+}
