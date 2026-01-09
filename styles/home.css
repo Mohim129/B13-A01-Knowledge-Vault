@@ -209,7 +209,7 @@ body button:hover {
 }
 .solution-section{
     padding: 120px;
-    border:#ce2222 5px solid;
+    /* border:#ce2222 5px solid; */
     display: flex;
     gap: 60px;
 }
@@ -250,11 +250,11 @@ body button:hover {
     text-align: center;
     padding: 80px;
     margin: 0 120px 120px 120px;
-    border: #001931 1px solid;
+    /* border: #001931 1px solid; */
     background-color: #F7F6F2;
 }
 .challenge{
-    border: #001931 1px solid;
+    /* border: #001931 1px solid; */
     margin-bottom: 24px;
 }
 .challenge .title{
@@ -272,4 +272,45 @@ body button:hover {
 }
 .challenge-button .description-text{
     margin-top: 16px;
+}
+footer{
+    background-color: #001931;
+    /* padding is applied in the following direction */
+    padding: 120px 120px 0px 120px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 80px;
+    color: white;
+    text-align: center;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.socials{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.socials .icons{
+    display: flex;
+    gap: 16px;
+    justify-content: right;
+    margin-top: 16px;
+
+}
+
+.copyright{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FAFAFA;
+    padding-bottom: 30px;
+    /* border:#0084ff 1px solid; */
+    
+}
+.copyright hr{
+    border: #737577 1px solid;
+    margin-bottom: 30px;
 }
