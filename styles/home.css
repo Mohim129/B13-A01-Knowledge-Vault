@@ -35,8 +35,8 @@ body button:hover {
 .hero-section {
     background: url(../assets/hero-bg.png) ;
     background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
+    /* width: 100%; */
+    /* height: auto; */
     padding-top: 116px;
     padding-bottom: 179px;
     justify-items: center;
@@ -137,7 +137,7 @@ body button:hover {
     margin-bottom: 32px;
 }
 .cards-section{
-    border: #6ca6db 5px solid;
+    /* border: #6ca6db 5px solid; */
 }
 .cards-title{
     /* border: #001931 1px solid; */
@@ -195,4 +195,43 @@ body button:hover {
     color: #001931;
     margin: 16px 0;
     padding: 0 16px;
+}
+.solution-section{
+    padding: 120px;
+    /* border:#ce2222 5px solid; */
+    display: flex;
+    gap: 60px;
+}
+.solutions-image{
+    /* border: #001931 2px solid; */
+}
+.solution-list{
+    margin: auto 0;
+}
+.green{
+    color: #30B868;
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.solution-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    line-height: 58px;
+}
+.description{
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.point{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    color: #001931;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 500;
 }
