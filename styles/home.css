@@ -35,8 +35,6 @@ body button:hover {
 .hero-section {
     background: url(../assets/hero-bg.png) ;
     background-repeat: no-repeat;
-    /* width: 100%; */
-    /* height: auto; */
     padding-top: 116px;
     padding-bottom: 179px;
     justify-items: center;
@@ -45,7 +43,6 @@ body button:hover {
     width: 85%;
     height: 56%;
     margin-top: 165 px;
-    /* border: #000000 5px solid; */
     text-align: center;
 }
 .last-hero-buttons{
@@ -98,7 +95,6 @@ body button:hover {
     width: 16px;
     height: 16px;
     background-color: #30B86833;
-    /* opacity: 0.2; */
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -109,7 +105,6 @@ body button:hover {
     width: 12px;
     height: 12px;
     background-color: #30B8686e;
-    /* opacity: 0.4; */
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -147,11 +142,10 @@ body button:hover {
     color: white;
     margin-bottom: 32px;
 }
-.cards-section{
-    /* border: #6ca6db 5px solid; */
-}
+/* .cards-section{
+     border: #6ca6db 5px solid; 
+} */
 .cards-title{
-    /* border: #001931 1px solid; */
     text-align: center;
     margin-top: 64px;
     margin-bottom: 44px;
@@ -174,7 +168,7 @@ body button:hover {
 .cards{
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 21px;
     margin-right: 120px;
     margin-left: 120px;
 /* bg Color checked using https://imagecolorpicker.com/ */
@@ -184,7 +178,8 @@ body button:hover {
 .card{
     text-align: center;
     padding: 70px 24px;
-    box-shadow: 0px 4px 16px #1d191918;
+    padding-bottom: 24px;
+    box-shadow: 0px -24px 30px #7e7a7a18; 
 }
 
 .card-icon{
@@ -209,13 +204,10 @@ body button:hover {
 }
 .solution-section{
     padding: 120px;
-    /* border:#ce2222 5px solid; */
     display: flex;
     gap: 60px;
 }
-.solutions-image{
-    /* border: #001931 2px solid; */
-}
+
 .solution-list{
     margin: auto 0;
 }
@@ -245,16 +237,16 @@ body button:hover {
     line-height: 20px;
     font-size: 16px;
     font-weight: 500;
+    gap: 6px;
 }
 .challenge-section{
     text-align: center;
     padding: 80px;
     margin: 0 120px 120px 120px;
-    /* border: #001931 1px solid; */
     background-color: #F7F6F2;
+    border-radius: 5px;
 }
 .challenge{
-    /* border: #001931 1px solid; */
     margin-bottom: 24px;
 }
 .challenge .title{
@@ -265,7 +257,6 @@ body button:hover {
     margin-bottom: 16px;
 }
 .challenge-button .btn1{
-    /* border: #001931 1px solid; */
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -275,7 +266,6 @@ body button:hover {
 }
 footer{
     background-color: #001931;
-    /* padding is applied in the following direction */
     padding: 120px 120px 0px 120px ;
     display: flex;
     flex-direction: column;
@@ -307,7 +297,6 @@ footer{
     font-weight: 400;
     color: #FAFAFA;
     padding-bottom: 30px;
-    /* border:#0084ff 1px solid; */
     
 }
 .copyright hr{
