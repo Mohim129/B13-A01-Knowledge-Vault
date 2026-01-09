@@ -198,7 +198,7 @@ body button:hover {
 }
 .solution-section{
     padding: 120px;
-    /* border:#ce2222 5px solid; */
+    border:#ce2222 5px solid;
     display: flex;
     gap: 60px;
 }
@@ -234,4 +234,28 @@ body button:hover {
     line-height: 20px;
     font-size: 16px;
     font-weight: 500;
+}
+.challenge-section{
+    text-align: center;
+    padding: 80px;
+    margin: 0 120px 120px 120px;
+    border: #001931 1px solid;
+    background-color: #F7F6F2;
+}
+.challenge{
+    border: #001931 1px solid;
+    margin-bottom: 24px;
+}
+.challenge .title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    line-height: 48px;
+    margin-bottom: 16px;
+}
+.challenge-button{
+    border: #001931 1px solid;
+}
+.challenge-button .description-text{
+    margin-top: 16px;
 }
